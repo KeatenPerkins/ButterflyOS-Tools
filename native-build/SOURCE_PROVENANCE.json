@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "version": "0.1.2",
+  "platform": "rgds-plus",
+  "os_source": {
+    "url": "https://github.com/ROCKNIX/distribution",
+    "revision": "4fc79d7c6fec6629f1d49a844aaba63f57a7c797"
+  },
+  "upstream": [
+    {
+      "file": "bslap-retroarch-9e1c1e8ac897625ed75920019f4f62a173a4eedf.tar.gz",
+      "sha256": "0d9a7c3acf988fe06f0fc7b27f72ad65adaa8b7e6681fbda48e4f59ac1883f1b",
+      "url": "https://github.com/libretro/RetroArch/archive/9e1c1e8ac897625ed75920019f4f62a173a4eedf.tar.gz"
+    },
+    {
+      "file": "gpsp-bslap-lr-5819380c2ffb0900219d700a382ee68c464ebb99.tar.gz",
+      "sha256": "1dfc919966cd58ce1d8f2580041d9bffe2e313d9442260c713ed0286a048a733",
+      "url": "https://github.com/libretro/gpsp/archive/5819380c2ffb0900219d700a382ee68c464ebb99.tar.gz"
+    },
+    {
+      "file": "gambatte-bslap-lr-466e8b174982b3fdb5a026f60efc51972d1576b0.tar.gz",
+      "sha256": "995161cf9eaf2d9d2133281ffd08310ff56eb2c57189f482f46c7022ee2911a8",
+      "url": "https://github.com/McDjuady/gambatte-libretro/archive/466e8b174982b3fdb5a026f60efc51972d1576b0.tar.gz"
+    },
+    {
+      "file": "sameboy-lr-aa158a889a48b538a0302873704a34577c8eb67d.tar.gz",
+      "sha256": "6d80783ac470c15b5be1060e619eda01079f00c1c42fdfbcc65527b7dcd8b5b7",
+      "url": "https://github.com/libretro/SameBoy/archive/aa158a889a48b538a0302873704a34577c8eb67d.tar.gz"
+    },
+    {
+      "file": "pksav-master.tar.gz",
+      "sha256": "6247df95be1fcafd8ae6f96ee74755751ac6342c4b0953e5f34e2dcc958952ed",
+      "url": "https://github.com/savaughn/pksav/archive/refs/heads/master.tar.gz"
+    },
+    {
+      "file": "retroarch-bdba046fa6766380bc2457532f38e589df769aaf.tar.gz",
+      "sha256": "ba14ddf6fd6712185334cce15d1fa7d36f3419195a34ae6fd6f1ade42095e94f",
+      "url": "https://github.com/libretro/RetroArch/archive/bdba046fa6766380bc2457532f38e589df769aaf.tar.gz"
+    },
+    {
+      "file": "ffmpeg-7.1.1.tar.xz",
+      "sha256": "733984395e0dbbe5c046abda2dc49a5544e7e0e1e2366bba849222ae9e3a03b1",
+      "url": "http://ffmpeg.org/releases/ffmpeg-7.1.1.tar.xz"
+    },
+    {
+      "file": "ROCKNIX-build-system.tar.gz",
+      "sha256": "c4a1c8d75370fc97fbc073d4abc1108cafefc47ec143452e1ebae124dbcde498",
+      "revision": "4fc79d7c6fec6629f1d49a844aaba63f57a7c797"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "version": "0.1.0-rgds",
+  "platform": "rgds-plus-aarch64",
+  "data_compatibility": "butterflyos-pokemon-gen1-3",
+  "cross_device_link_qualified": false,
+  "apps": [
+    "Blink",
+    "Bdex",
+    "Bslap"
+  ]
+}

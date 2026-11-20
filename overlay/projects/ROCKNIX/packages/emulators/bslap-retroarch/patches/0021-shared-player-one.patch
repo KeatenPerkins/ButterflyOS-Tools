@@ -1,0 +1,12 @@
+--- a/input/input_driver.c
++++ b/input/input_driver.c
+@@ -17537,7 +17537,8 @@
+       /* Controller port remaps: none under first-press assignment */
+       configuration_set_uint(settings,
+             settings->uints.input_remap_ports[i],
+-            first_press ? MAX_USERS : i);
++            first_press ? MAX_USERS :
++               ((getenv("BUTTERFLYOS_SHARED_PLAYER1") && i > 0) ? i - 1 : i));
+    }
+ }
+ 

@@ -1,0 +1,20 @@
+{
+  "root": "/storage/.config/butterflyos/apps",
+  "public_key": "/usr/share/butterflyos/apps/catalog-public.pem",
+  "catalog_url": "https://github.com/KeatenPerkins/ButterflyOS-Tools/releases/latest/download/catalog.json",
+  "profile": {
+    "api": 1,
+    "id": "rgds-plus",
+    "arch": "aarch64",
+    "layout": "dual",
+    "features": [
+      "python3",
+      "sdl2",
+      "rocknix-storage-v1",
+      "bslap-rgds-v1"
+    ],
+    "bundled": {},
+    "tools_directory": "/storage/.config/modules",
+    "launcher_command": "/usr/bin/btools"
+  }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+/builds/
+/.config/
+*.img
+*.img.gz
+*.srm
+*.sav
+*.state*
